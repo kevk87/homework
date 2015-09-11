@@ -52,12 +52,14 @@ header {
 
 .top_nav ul .home {
 color:#f63c3c;
+padding-bottom:20px;
 }
 
 .top_nav ul .home .bar {
 	width:40px;
 	height:5px;
 	background-color: #f63c3c;
+	margin-top: 24px;
 
 }
 .top_nav ul li {
@@ -70,6 +72,10 @@ color:#f63c3c;
 	content: "";
 	display: table;
 	clear: both;
+}
+
+main {
+	margin-top: -35px;
 }
 
 /*Main Section*/
@@ -263,6 +269,7 @@ article figure img {
 	padding-bottom:20px;
 	font-size:16px;
 	color:#fcd2d2;
+	margin-top: -39px;
 }
 
 .showcasing h2{
@@ -274,7 +281,9 @@ article figure img {
 }
 
 .showcasing a {
-	padding:30px 25px;
+	padding: 10px 100px;
+	width: 270px;
+    height: 55px;
 	background-color:#fff;
 	color:#685157;
 	font-size:20px;
@@ -284,13 +293,15 @@ article figure img {
 
 aside {
 	background-color: #fafafa;
-	height:432px;
+	height:500px;
 	
 }
 aside div {
+	padding-top:60px;
 	max-width: 1160px;
 	width: 80%;
 	margin:0 auto;
+	
 }
 
 aside h2, aside p {
@@ -299,6 +310,7 @@ aside h2, aside p {
 
 aside p {
 	font-size:16px;
+	padding-bottom:60px;
 }
 
 aside h2 {
@@ -307,9 +319,11 @@ aside h2 {
 
 aside ul {
 	padding-left:0;
+	
 }
 
 aside ul li{
+
 	padding-right:30px;
 	display:inline-block;
 	width: 270px;
@@ -324,11 +338,14 @@ aside ul .logo, aside ul .logo a {
 	padding-top:60px;
 }
 
-footer p {
-	padding-top:25px;
+/*Footer*/
+footer {
 	max-width:1160px;
 	width:80%;
+	padding-left: 136px;
+
 }
+
 
 
 
